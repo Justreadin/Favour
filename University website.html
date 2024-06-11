@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technology University</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Technology University</h1>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showSection('home')">Home</a></li>
+                <li><a href="#" onclick="showSection('payment')">Payment</a></li>
+                <li><a href="#" onclick="showSection('hostels')">Hostels</a></li>
+                <li><a href="#" onclick="showSection('courses')">Courses</a></li>
+                <li><a href="#" onclick="showSection('contact')">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="content-section">
+            <h2>Welcome to Technology University</h2>
+            <p>Your journey to excellence begins here.</p>
+        </section>
+
+        <section id="payment" class="content-section" style="display: none;">
+            <h2>Payment</h2>
+            <p>Information about tuition fees and payment methods.</p>
+        </section>
+
+        <section id="hostels" class="content-section" style="display: none;">
+            <h2>Hostels</h2>
+            <p>Details about hostel accommodation and facilities.</p>
+        </section>
+
+        <section id="courses" class="content-section" style="display: none;">
+            <h2>Courses</h2>
+            <p>Explore the diverse range of courses we offer.</p>
+        </section>
+
+        <section id="contact" class="content-section" style="display: none;">
+            <h2>Contact Us</h2>
+            <p>Get in touch with us for more information.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Technology University. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
